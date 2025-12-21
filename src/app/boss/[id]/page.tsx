@@ -8,6 +8,7 @@ const bossData: Record<
   string,
   {
     name: string
+    image?: string
     type: string
     hp: string
     attack: string
@@ -243,18 +244,16 @@ const bossData: Record<
   },
   "rawk-hawk": {
     name: "Rawk Hawk",
+    image: "/rawk-hawk-hawk-wrestler-mini-boss-paper-mario.png",
     type: "Mini Boss",
     hp: "40",
     attack: "3",
     defense: "1",
     location: "Glitz Pit",
     strategy: [
-      "He cheats by attacking the audience to restore HP.",
-      "Use strong attacks to defeat him quickly.",
-      "Don't let the battle drag on or he'll keep healing.",
-      "Partner abilities work great here.",
+      "Rawk Hawk is a powerful opponent.  After a short time of attacking him he will go high up.  In this state you cannot jump or hammer him.  Because he is holding onto the roof, Flurries body slam can hurt him.  He can also do a wall dive which can hurt you a lot.",
     ],
-    tips: ["Power Lift increases your attack power significantly.", "Try to finish him in 5-6 turns if possible."],
+    tips: ["Recommended HP: 30", "Recommended FP: 15", "Recommended Partner: Flurrie"],
   },
   dooplis: {
     name: "Dooplis",
@@ -395,9 +394,9 @@ export default async function BossPage({
       <header className="border-b border-border bg-card">
         <div className="container mx-auto px-4 py-6">
           <Link href="/">
-            <Button variant="ghost" className="mb-4">
+            <Button variant="ghost" className="mb-4 hover:cursor-pointer">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Dashboard
+              Back to Bosses
             </Button>
           </Link>
           <h1 className="text-4xl font-bold text-balance text-primary">{boss.name}</h1>
@@ -412,7 +411,7 @@ export default async function BossPage({
         <div className="mb-8">
           <Card className="overflow-hidden border-2 border-primary">
             <img
-              src={`/placeholder.svg?height=400&width=800&query=${boss.name} boss Paper Mario battle`}
+              src={`${boss.image}`}
               alt={boss.name}
               className="w-full h-64 object-cover"
             />

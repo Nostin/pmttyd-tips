@@ -17,25 +17,26 @@ const bosses = [
 ]
 
 const miniBosses = [
-  { id: "blooper", name: "Blooper", image: "/blooper-squid-mini-boss-paper-mario.jpg" },
+  { id: "blooper", name: "Blooper", image: "/blooper-squid-mini-boss-paper-mario.png" },
   { id: "red-bones", name: "Red Bones", image: "/red-bones-skeleton-mini-boss-paper-mario.jpg" },
-  { id: "three-shadows", name: "The Three Shadows", image: "/three-shadows-ninja-mini-boss-paper-mario.jpg" },
+  { id: "three-shadows", name: "The Three Shadows", image: "/three-shadows-ninja-mini-boss-paper-mario2.png" },
   { id: "iron-adonis-twins", name: "The Iron Adonis Twins", image: "/iron-adonis-twins-mini-boss-paper-mario.png" },
-  { id: "rawk-hawk", name: "Rawk Hawk", image: "/rawk-hawk-hawk-wrestler-mini-boss-paper-mario.jpg" },
+  { id: "rawk-hawk", name: "Rawk Hawk", image: "/rawk-hawk-hawk-wrestler-mini-boss-paper-mario.png" },
   { id: "dooplis", name: "Dooplis", image: "/dooplis-ghost-mini-boss-paper-mario.png" },
-  { id: "bowser", name: "Bowser", image: "/bowser-mini-boss-paper-mario.jpg" },
-  { id: "three-shadows-palace", name: "The Three Shadows - Palace", image: "/placeholder.svg?height=200&width=200" },
-  { id: "dark-bones", name: "Dark Bones", image: "/placeholder.svg?height=200&width=200" },
-  { id: "gloom-tail", name: "Gloom Tail", image: "/placeholder.svg?height=200&width=200" },
-  { id: "grodus", name: "Grodus", image: "/placeholder.svg?height=200&width=200" },
-  { id: "bowser-palace", name: "Bowser - Palace", image: "/placeholder.svg?height=200&width=200" },
+  { id: "bowser", name: "Bowser", image: "/bowser-mini-boss-paper-mario.png" },
+  { id: "three-shadows-palace", name: "The Three Shadows - Palace", image: "/three-shadows-palace.png" },
+  { id: "dark-bones", name: "Dark Bones", image: "/dark-bones.png" },
+  { id: "gloom-tail", name: "Gloom Tail", image: "/gloomtail.png" },
+  { id: "grodus", name: "Grodus", image: "/grodus.png" },
+  { id: "bowser-palace", name: "Bowser - Palace", image: "/bowser-palace.png" },
 ]
 
 const secretBosses = [
-  { id: "blooper", name: "Blooper", image: "/blooper-squid-mini-boss-paper-mario.jpg" },
-  { id: "red-bones", name: "Red Bones", image: "/red-bones-skeleton-mini-boss-paper-mario.jpg" },
-  { id: "three-shadows", name: "The Three Shadows", image: "/three-shadows-ninja-mini-boss-paper-mario.jpg" },
-  { id: "iron-adonis-twins", name: "The Iron Adonis Twins", image: "/iron-adonis-twins-mini-boss-paper-mario.jpg" },
+  { id: "bonetail", name: "Bonetail", image: "/bonetail.png" },
+  { id: "atomic-boo", name: "Atomic Boo", image: "/atomic-boo.png" },
+  { id: "prince-mush", name: "Prince Mush", image: "/prince-mush.png" },
+  { id: "whacker", name: "Whacker", image: "/whacker.png" },
+  { id: "gus", name: "Gus", image: "/gus.png" },
 ]
 
 export default function Home() {
