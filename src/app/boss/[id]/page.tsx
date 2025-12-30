@@ -199,14 +199,17 @@ const bossData: Record<
     hp: "5",
     attack: "3",
     defense: "1",
+    image: "/red-bones-skeleton-mini-boss-paper-mario.jpg",
     location: "Hooktail Castle",
     strategy: [
-      "He revives after being defeated - you must beat him twice.",
-      "Fire attacks prevent him from reviving.",
-      "Use Fire Flower items or partner fire abilities.",
-      "Regular attacks work, but be ready for round 2.",
+      "Red Bones appears in both Hooktail Castle and the Palace of Shadows.",
+      "Fighting the Red Bones is a little bit tough but it has four Dull Bones beside it.  They can craft other Dull Bones.  The Red Bones will come back alive after a short time so defeat the Dull Bones first.  Jump won't do a thing to these enemies.  Try not to let the Red Bones make any more Dull Bones unless you are trying to get lots and lots of star points because in this fight you can get many many star points."
     ],
-    tips: ["Save at least one Fire Flower for the second phase.", "The POW Block item can damage him effectively."],
+    tips: [
+      "Recommended HP: 10",
+      "Recommended FP: 5-10", 
+      "Recommended Partner: Koops",
+    ],
   },
   "three-shadows": {
     name: "The Three Shadows",
@@ -226,20 +229,17 @@ const bossData: Record<
   "iron-adonis-twins": {
     name: "The Iron Adonis Twins",
     type: "Mini Boss",
-    hp: "50 each",
-    attack: "4",
-    defense: "0",
+    image: "/iron-adonis-twins-mini-boss-paper-mario.png",
+    hp: "6 each",
+    attack: "4 or 5",
+    defense: "Unknown",
     location: "Glitz Pit",
     strategy: [
-      "Two enemies at once - this can be challenging.",
-      "Use multi-target attacks to damage both.",
-      "Focus on defeating one first to reduce damage taken.",
-      "They have high HP so conserve FP for important moves.",
+      "The Iron Adonis Twins is a very hard boss fight.  None of your attacks will do a thing. After you battle them one time you will get Baby Yoshi.  You will discover their weaknesses by whacking one with the other. Use Yoshi's gulp attack to defeat them.  Make sure Baby Yoshi can't be attacked with Mario in front of him.",
     ],
     tips: [
-      "Art Attack works very well in this battle.",
-      "Stock up on healing items before this fight.",
-      "The Double Dip badge lets you use two items per turn.",
+      "Recommended HP: 15",
+      "Recommended FP: 10-15",
     ],
   },
   "rawk-hawk": {
@@ -247,8 +247,8 @@ const bossData: Record<
     image: "/rawk-hawk-hawk-wrestler-mini-boss-paper-mario.png",
     type: "Mini Boss",
     hp: "40",
-    attack: "3",
-    defense: "1",
+    attack: "4",
+    defense: "0",
     location: "Glitz Pit",
     strategy: [
       "Rawk Hawk is a powerful opponent.  After a short time of attacking him he will go high up.  In this state you cannot jump or hammer him.  Because he is holding onto the roof, Flurries body slam can hurt him.  He can also do a wall dive which can hurt you a lot.",
@@ -337,21 +337,17 @@ const bossData: Record<
   grodus: {
     name: "Grodus",
     type: "Mini Boss",
+    image: "/grodus.png",
     hp: "50",
     attack: "7",
     defense: "1",
-    location: "Palace of Shadow",
+    location: "Palace of Shadows",
     strategy: [
-      "Protected by four Grodus X's that must be destroyed first.",
-      "Take out the Grodus X's before focusing on Grodus.",
-      "Electric attacks are effective.",
-      "He becomes vulnerable once the X's are gone.",
-      "Use multi-target attacks to clear the X's quickly.",
+      "Grodus has 50HP but is still an incredibly tough boss fight.  Just like the Yuk has Mini Yuk X to protect itself, Grodus has Grodus X to protect itself.  Multi bounce is a good attack to get rid of the Grodus X.  Grodus is also immune to the jump attack unless you boost your attack power by using Power Punch and Power Lift.",
     ],
     tips: [
-      "Earth Tremor hits all enemies at once.",
-      "Save high-power single-target moves for Grodus himself.",
-      "Stock up before this fight as the final battle is next.",
+      "Recommended HP: 50",
+      "Recommended FP: 40-50",
     ],
   },
   "bowser-palace": {
