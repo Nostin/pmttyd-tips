@@ -35,7 +35,7 @@ const secretBosses = [
   { id: "bonetail", name: "Bonetail", image: "/bonetail.png" },
   { id: "atomic-boo", name: "Atomic Boo", image: "/atomic-boo.png" },
   { id: "prince-mush", name: "Prince Mush", image: "/prince-mush.png" },
-  { id: "whacker", name: "Whacker", image: "/whacker.png" },
+  { id: "whacka", name: "Whacka", image: "/whacker.png" },
   { id: "gus", name: "Gus", image: "/gus.png" },
 ]
 
