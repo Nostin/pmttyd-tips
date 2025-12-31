@@ -179,17 +179,18 @@ const bossData: Record<
   blooper: {
     name: "Blooper",
     type: "Mini Boss",
+    image: "/blooper-squid-mini-boss-paper-mario.png",
     hp: "12",
     attack: "1",
     defense: "0",
     location: "Rogueport Sewers",
     strategy: [
-      "Very early game boss - straightforward battle.",
-      "Regular attacks work fine.",
-      "Watch out for its ink attack that can make you dizzy.",
-      "Use Goombella's Headbonk for consistent damage.",
+      "Blooper is not an incredibly tough boss fight",
+      "Start by attacking the tentacles",
+      "Once you have defeated the tentacles, Blooper will fall down and then it's possible to attack him",
+      "When Blooper has fallen down attack him with as many power smashes as you can"
     ],
-    tips: ["Bring a few mushrooms just in case.", "This is mainly a tutorial boss to learn combat mechanics."],
+    tips: ["Recommended HP: 10", "Recommended FP: 5", "Recommended Partner: Goombella", "Recommended Badge: Power Smash"],
   },
   "red-bones": {
     name: "Red Bones",
@@ -212,17 +213,17 @@ const bossData: Record<
   "three-shadows": {
     name: "The Three Shadows",
     type: "Mini Boss",
-    hp: "5 each",
+    image: "/three-shadows-ninja-mini-boss-paper-mario2.png",
+    hp: "Beldam: 9, Marilyn: 12, Vivian: 10",
     attack: "2",
     defense: "0",
     location: "Boggly Woods",
     strategy: [
-      "Fight each shadow one at a time.",
-      "They have low HP but can be tricky.",
-      "Use multi-target attacks if you have them.",
-      "Focus on one at a time to reduce incoming damage.",
+      "The Three Shadows is a little bit easy",
+      "Try to hit them with a power smash, this will make it incredibly easy",
+      "Marilyn is the toughest of the three shadows, she will power herself up two times and then Beldam will use the effect on her as a power punch.  This can make her incredibly tough.  This is why it's best to defeat Marilyn first"
     ],
-    tips: ["Earth Tremor is great for hitting all three.", "Relatively easy fight if you came prepared."],
+    tips: ["Recommended HP: 15-20", "Recommended FP: 10"]
   },
   "iron-adonis-twins": {
     name: "The Iron Adonis Twins",
@@ -253,20 +254,18 @@ const bossData: Record<
     ],
     tips: ["Recommended HP: 30", "Recommended FP: 15", "Recommended Partner: Flurrie"],
   },
-  dooplis: {
-    name: "Dooplis",
+  doopliss: {
+    name: "Doopliss",
     type: "Mini Boss",
+    image: "/dooplis-ghost-mini-boss-paper-mario.png",
     hp: "40",
     attack: "4",
     defense: "0",
     location: "Creepy Steeple",
     strategy: [
-      "He transforms into Mario and steals your partner.",
-      "Attack him with regular moves.",
-      "The real challenge is fighting without your partner initially.",
-      "Once Vivian joins, use her abilities effectively.",
+      "Basically just use Power Smash and you should be fine"
     ],
-    tips: ["Save FP for when you reunite with Vivian.", "Stock up on healing items for this solo portion."],
+    tips: ["Recommended HP: 30", "Recommended FP: 15"],
   },
   bowser: {
     name: "Bowser",
@@ -311,35 +310,38 @@ const bossData: Record<
   "dark-bones": {
     name: "Dark Bones",
     type: "Mini Boss",
+    image: "/dark-bones.png",
     hp: "20",
     attack: "5",
     defense: "2",
     location: "Palace of Shadows",
     strategy: [
-      "Stronger version of Red Bones.",
-      "Can revive himself multiple times.",
-      "Use fire attacks to prevent revival.",
-      "Piercing attacks help with his defense.",
+      "Dark Bones is the exact same as fighting the Red Bones but they have more HP and can do bigger attacks",
+      "They also have more defence",
+      "The Dull Bones have turned into Dry Bones.  The Dry Bones are just like the Red Bones.  They will come back alive after a short time",
+      "Use the same tactics as the Red Bones fight and you should be able to win",
+      "In this fight there is also a lot more star points than the Red Bones fight",
+      "You can get from 50 star points to 60 star points"
     ],
-    tips: ["Fire Drive or Fiery Jinx are very effective.", "Be patient and keep using fire attacks."],
+    tips: ["Recommended HP: 50", "Recommended FP: 35", "Recommended Partner: Koops"],
   },
   "gloom-tail": {
     name: "Gloom Tail",
     type: "Mini Boss",
+    image: "/gloomtail.png",
     hp: "80",
     attack: "8",
     defense: "2",
     location: "Palace of Shadows",
     strategy: [
-      "Powerful dragon mini-boss.",
-      "High defense - use Piercing Blow or similar.",
-      "Watch for his mega-breath attack and defend.",
-      "This is a preparation test for the final boss.",
+      "Gloom Tail is Hook Tail's brother.  Gloom Tail has a mega breath attack that can do around 14 damage",
+      "Gloom Tail has 80HP, otherwise most of his attacks are the same as Hook Tail's",
+      "Gloom Tail can also poison you"
     ],
     tips: [
-      "Ultra Shrooms and Jammin' Jellies recommended.",
-      "Use Charge and Power Lift to boost damage.",
-      "The Pretty Lucky badge can help avoid some damage.",
+      "Recommended HP: 50",
+      "Recommended FP: 30",
+      "Recommended Partner: Admiral Bobbery",
     ],
   },
   grodus: {
@@ -361,21 +363,22 @@ const bossData: Record<
   "bowser-palace": {
     name: "Bowser - Palace",
     type: "Mini Boss",
+    image: "/bowser-palace.png",
     hp: "70",
     attack: "7",
     defense: "2",
     location: "Palace of Shadows",
     strategy: [
-      "Powered-up Bowser with Kammy Koopa assisting.",
-      "Take out Kammy first to stop her from buffing Bowser.",
-      "Use Piercing attacks to bypass his defense.",
-      "Watch for his star-powered attacks.",
-      "Multi-target attacks help deal with both enemies.",
+      "Bowser now has Kammy Koopa in the battle with him as a partner",
+      "Bowser also now has 70 or 80 HP",
+      "Kammy Koopa has about 40 HP",
+      "Kammy Koopa will heal Bowser and use her magic with the power punch on Bowser to make him stronger",
+      "Bowser has the same attacks in this fight.  Use your own battle strategies"
     ],
     tips: [
-      "Art Attack can hit both enemies for good damage.",
-      "Ultra Shrooms are recommended for survivability.",
-      "This is your last battle before the final boss - use items freely.",
+      "Recommended HP: 50",
+      "Recommended FP: 35",
+      "Recommended Partner: Admiral Bobbery",
     ],
   },
   "bonetail": {

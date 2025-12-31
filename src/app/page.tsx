@@ -22,7 +22,7 @@ const miniBosses = [
   { id: "three-shadows", name: "The Three Shadows", image: "/three-shadows-ninja-mini-boss-paper-mario2.png" },
   { id: "iron-adonis-twins", name: "The Iron Adonis Twins", image: "/iron-adonis-twins-mini-boss-paper-mario.png" },
   { id: "rawk-hawk", name: "Rawk Hawk", image: "/rawk-hawk-hawk-wrestler-mini-boss-paper-mario.png" },
-  { id: "dooplis", name: "Dooplis", image: "/dooplis-ghost-mini-boss-paper-mario.png" },
+  { id: "doopliss", name: "Doopliss", image: "/dooplis-ghost-mini-boss-paper-mario.png" },
   { id: "bowser", name: "Bowser", image: "/bowser-mini-boss-paper-mario.png" },
   { id: "three-shadows-palace", name: "The Three Shadows - Palace", image: "/three-shadows-palace.png" },
   { id: "dark-bones", name: "Dark Bones", image: "/dark-bones.png" },
